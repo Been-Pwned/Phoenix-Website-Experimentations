@@ -18,6 +18,7 @@ defmodule A_Wesbite_MissionWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/recall", NewpageController, :index
   end
 
   # Other scopes may use custom stacks.
